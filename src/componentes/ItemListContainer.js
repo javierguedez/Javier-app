@@ -4,7 +4,7 @@ import ItemList from "./ItemList"
 let productosIniciales = [
     {
         id: 1,
-        nombre: " producto1",
+        nombre: " Cheesecake",
         precio: 100
     },
     {
