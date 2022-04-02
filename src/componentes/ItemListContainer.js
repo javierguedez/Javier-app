@@ -36,6 +36,7 @@ const ItemListContainer = () => {
             .then((respuestaApi) => {
                 setProductos(productosIniciales)
             }).catch((errorApi) => {
+                // aqui va una noti
             })
             .finally(() => {
                 setLoading(false)
@@ -44,13 +45,10 @@ const ItemListContainer = () => {
 
 
     return (
-        <main className="containerlist">
-            <h2>Bienvenido,</h2>
-            {productos.length>0?
-            <ItemList productosp={productos}> </ItemList>:
-            <div>cargando productos...</div>}
-            
-        </main>
+        <>
+        <p>{loading ? "Cargando...": "Carga completa"}</p>
+        <ItemList productosp={productos}/>
+        </>
     );
 }
 

@@ -4,11 +4,11 @@ import Items from "./Items"
 const ItemList = ({ productosp }) => {
     return (
         <ul>
-            {productosp.map((product, index)=>(
-                <Items producto={product} key={index}></Items>
-            ))}
+            {productosp.map((product, index)=>{
+               return <Items producto={product} key={index}></Items>
+             } )}
 
         </ul>)
 }
 
-export default ItemList
+export default ItemList 
