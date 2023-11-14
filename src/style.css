@@ -5,6 +5,12 @@
   list-style: none;
 }
 
+:root{
+  --color1:#a4eae4;
+  --color2:#2d403e;
+  --color3:#689591;
+}
+
 html, body, #root {
   height: 100vh;
   background-color: rgba(238, 238, 248, 0.418);
