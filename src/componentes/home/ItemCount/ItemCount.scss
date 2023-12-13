@@ -1,0 +1,19 @@
+.btn-car{
+    .button{
+        font-size: 20px;
+    }
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+
+    .button{
+        width: 40px;
+    }    
+}
+.cantidad{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }

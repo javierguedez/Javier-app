@@ -1,0 +1,25 @@
+.section-card{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15px; 
+    padding-top: 10px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+.card-header-2{
+    font-size: 40px;
+    color:rgba(28, 170, 170, 0.789);    
+} 
+}
+
+.footer-card{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+    .button{
+        font-size: 20px;
+    }
+}

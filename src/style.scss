@@ -4,18 +4,19 @@
     text-decoration: none;
     list-style: none;
 }
+@import "./componentes/home/Item"
+// @import "./NavBar";
+// @import "./CartWidget";
 
-@import "./NavBar";
-@import "./CartWidget";
-:root{
-    --color1:#a4eae4;
-    --color2:#2d403e;
-    --color3:#689591;
-}
+// :root{
+//     --color1:#a4eae4;
+//     --color2:#2d403e;
+//     --color3:#689591;
+// }
 
-.item-list{
-    display: flex;
-    justify-content: center;
-    color: var(--color3);
-    margin-top: 2rem;
-}
+// .item-list{
+//     display: flex;
+//     justify-content: center;
+//     color: var(--color3);
+//     margin-top: 2rem;
+// }
