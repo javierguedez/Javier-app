@@ -1,8 +1,10 @@
+import ItemDetail from "./ItemDetail/ItemDetail";
 import "./item.scss"
 import { Link } from "react-router-dom";
 
 
-const Item = ({id, name, img, price, stock }) =>{
+
+const Item = ({id, name, image, price, stock }) =>{
 
     return(
         
@@ -13,7 +15,7 @@ const Item = ({id, name, img, price, stock }) =>{
             </header>
             <div className="card-img">
             <picture className="image is-4by3">
-                <img src={img} alt={name}/>
+                <img src={image} alt={name}/>
             </picture>
             </div>
             <section className="section-card">
@@ -21,7 +23,7 @@ const Item = ({id, name, img, price, stock }) =>{
                 <p className="subtitle is-5">Stock: {stock}</p>
             </section>
                 <footer className="footer-card">
-                    <Link to={`/item/${id}`} className="button is-primary is-outlined">Ver detalle</Link>
+                    <Link to={"/item/" + ItemDetail.id} className="button is-primary is-outlined">Ver detalle</Link>
                 </footer>
             
         </article>

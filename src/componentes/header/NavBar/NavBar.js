@@ -19,7 +19,10 @@ function NavBar() {
     
   </div> 
   <button className="button is-primary is-outlined">
-  <FaShoppingCart className="shoping-car"/>
+  <Link to="/cart" className="Option">
+    <FaShoppingCart className="shoping-car"/>
+  </Link>
+  
   </button>
 </nav>      
   )

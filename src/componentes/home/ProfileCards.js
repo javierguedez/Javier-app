@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 function ProfileCards(props) {
-    const { titulo, img } = props;
+    const { titulo, image } = props;
 
     const [count, setCount] = useState(0);
 
@@ -24,7 +24,7 @@ function ProfileCards(props) {
         <div className="card">
             <div className="card-img">
                 <figure>
-                    <img src={img} />
+                    <img src={image} />
                 </figure>
             </div>
             <div className="card-content">
